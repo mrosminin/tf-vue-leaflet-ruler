@@ -36,28 +36,37 @@ export default {
   cursor: pointer;
 }
 
+.leaflet-control-ruler:hover {
+  background-color: #dfdfdf !important;
+}
+
 .leaflet-control-ruler__btn {
   height: 38px;
   width: 38px;
   border-radius: 4px;
   background: url("./assets/icon.svg") no-repeat center;
 }
+
 .leaflet-control-ruler__btn:hover {
   background-color: #f4f4f4;
 }
+
 .leaflet-control-ruler__btn.active {
   background-color: #f4f4f4;
 }
+
 .leaflet-ruler__result-tooltip {
   background-color: white;
   border-width: 1px;
   border-color: #1897F2;
 }
+
 .leaflet-ruler__result-area-tooltip {
   background-color: white;
   border-width: 1px;
   border-color: #da0000;
 }
+
 .leaflet-ruler__moving-tooltip {
   background-color: rgba(255, 255, 255, .7);
   background-clip: padding-box;
