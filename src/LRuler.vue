@@ -33,6 +33,7 @@ export default {
 .leaflet-control-ruler {
   background-color: white !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
 
 .leaflet-control-ruler__btn {
@@ -42,10 +43,10 @@ export default {
   background: url("./assets/icon.svg") no-repeat center;
 }
 .leaflet-control-ruler__btn:hover {
-  background-color: #f4f4f4 !important;
+  background-color: #f4f4f4;
 }
 .leaflet-control-ruler__btn.active {
-  background-color: #f4f4f4 !important;
+  background-color: #f4f4f4;
 }
 .leaflet-ruler__result-tooltip {
   background-color: white;
