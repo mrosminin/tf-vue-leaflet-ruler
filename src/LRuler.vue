@@ -15,11 +15,11 @@ export default {
   },
   mounted() {
     const options = optionsMerger(
-      {
-        ...this.controlOptions,
-        options: this.options
-      },
-      this
+        {
+          ...this.controlOptions,
+          options: this.options
+        },
+        this
     )
     L.control.ruler(options).addTo(this.map)
   },
@@ -33,26 +33,22 @@ export default {
 .leaflet-control-ruler {
   background-color: white !important;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
-.leaflet-control-ruler:hover {
-  background-color: #dfdfdf !important;
 }
 
 .leaflet-control-ruler__btn {
   height: 38px;
   width: 38px;
   border-radius: 4px;
+  cursor: pointer;
   background: url("./assets/icon.svg") no-repeat center;
 }
 
 .leaflet-control-ruler__btn:hover {
-  background-color: #f4f4f4;
+  background-color: #dfdfdf !important;
 }
 
 .leaflet-control-ruler__btn.active {
-  background-color: #f4f4f4;
+  background-color: #dfdfdf !important;
 }
 
 .leaflet-ruler__result-tooltip {

@@ -1,6 +1,6 @@
 {
   "name": "tf-vue-leaflet-ruler",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "vue2 leaflet ruler",
   "author": {
     "name": "mrosminin"
@@ -14,7 +14,7 @@
   "dependencies": {
     "core-js": "^3.18.2",
     "leaflet": "^1.7.1",
-    "tf-leaflet-ruler": "^1.0.2",
+    "tf-leaflet-ruler": "^1.0.4",
     "vue": "^2.6.14",
     "vue2-leaflet": "^2.7.1"
   },
